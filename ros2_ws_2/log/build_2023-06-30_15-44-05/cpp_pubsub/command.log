@@ -1,0 +1,2 @@
+Invoking command in '/home/damoon/ROS2_Learning/ros2_ws_2/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub
+Invoked command in '/home/damoon/ROS2_Learning/ros2_ws_2/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub

@@ -1,0 +1,8 @@
+/home/damoon/ROS2_Learning/ros2_ws_2/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
+/home/damoon/ROS2_Learning/ros2_ws_2/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
+/home/damoon/ROS2_Learning/ros2_ws_2/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
+/home/damoon/ROS2_Learning/ros2_ws_2/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
+/home/damoon/ROS2_Learning/ros2_ws_2/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
+/home/damoon/ROS2_Learning/ros2_ws_2/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
+/home/damoon/ROS2_Learning/ros2_ws_2/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
+/home/damoon/ROS2_Learning/ros2_ws_2/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl

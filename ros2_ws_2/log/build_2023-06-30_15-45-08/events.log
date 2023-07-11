@@ -1,0 +1,184 @@
+[0.000000] (-) TimerEvent: {}
+[0.000440] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000479] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000513] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000528] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.008423] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.008872] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub'], 'cwd': '/home/damoon/ROS2_Learning/ros2_ws_2/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'damoon'), ('LC_TIME', 'fi_FI.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/damoon/ROS2_Learning/ros2_ws_2/install/turtlesim/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/damoon'), ('OLDPWD', '/home/damoon/ROS2_Learning/ros2_ws_2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fi_FI.UTF-8'), ('SYSTEMD_EXEC_PID', '4890'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/damoon/ROS2_Learning/ros2_ws_2/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'damoon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'damoon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/letc-roseratorkaks:@/tmp/.ICE-unix/1627,unix/letc-roseratorkaks:/tmp/.ICE-unix/1627'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fi_FI.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eb41b3d6_dc9d_4d80_be6e_0632e1b19d1c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fi_FI.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KDV961'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/damoon/ROS2_Learning/ros2_ws_2/install/turtlesim:/home/damoon/ROS2_Learning/ros2_ws_2/install/my_package:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fi_FI.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fi_FI.UTF-8'), ('LC_IDENTIFICATION', 'fi_FI.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/damoon/ROS2_Learning/ros2_ws_2/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/damoon/ROS2_Learning/ros2_ws_2/install/turtlesim/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'fi_FI.UTF-8'), ('LC_PAPER', 'fi_FI.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/damoon/ROS2_Learning/ros2_ws_2/install/turtlesim:/home/damoon/ROS2_Learning/ros2_ws_2/install/my_package:/opt/ros/iron')]), 'shell': False}
+[0.026040] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.2 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.099403] (-) TimerEvent: {}
+[0.134436] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 21.0.1 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.187889] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.200308] (-) TimerEvent: {}
+[0.201648] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.223896] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.248345] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300442] (-) TimerEvent: {}
+[0.400908] (-) TimerEvent: {}
+[0.422899] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[0.426550] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.501075] (-) TimerEvent: {}
+[0.524273] (cpp_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.546109] (cpp_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[0.579676] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.601517] (-) TimerEvent: {}
+[0.701917] (-) TimerEvent: {}
+[0.746488] (cpp_pubsub) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[0.781586] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[0.802522] (-) TimerEvent: {}
+[0.840419] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.841852] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.841958] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.843026] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.844291] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.844440] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.845420] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.846603] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.857512] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[0.858945] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/damoon/ROS2_Learning/ros2_ws_2/build/cpp_pubsub\n'}
+[0.865460] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[0.866117] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.867169] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/damoon/ROS2_Learning/ros2_ws_2/build/cpp_pubsub', '--', '-j2', '-l2'], 'cwd': '/home/damoon/ROS2_Learning/ros2_ws_2/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'damoon'), ('LC_TIME', 'fi_FI.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/damoon/ROS2_Learning/ros2_ws_2/install/turtlesim/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/damoon'), ('OLDPWD', '/home/damoon/ROS2_Learning/ros2_ws_2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fi_FI.UTF-8'), ('SYSTEMD_EXEC_PID', '4890'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/damoon/ROS2_Learning/ros2_ws_2/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'damoon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'damoon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/letc-roseratorkaks:@/tmp/.ICE-unix/1627,unix/letc-roseratorkaks:/tmp/.ICE-unix/1627'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fi_FI.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eb41b3d6_dc9d_4d80_be6e_0632e1b19d1c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fi_FI.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KDV961'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/damoon/ROS2_Learning/ros2_ws_2/install/turtlesim:/home/damoon/ROS2_Learning/ros2_ws_2/install/my_package:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fi_FI.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fi_FI.UTF-8'), ('LC_IDENTIFICATION', 'fi_FI.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/damoon/ROS2_Learning/ros2_ws_2/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/damoon/ROS2_Learning/ros2_ws_2/install/turtlesim/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'fi_FI.UTF-8'), ('LC_PAPER', 'fi_FI.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/damoon/ROS2_Learning/ros2_ws_2/install/turtlesim:/home/damoon/ROS2_Learning/ros2_ws_2/install/my_package:/opt/ros/iron')]), 'shell': False}
+[0.902363] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.902514] (-) TimerEvent: {}
+[0.903323] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[1.002750] (-) TimerEvent: {}
+[1.103085] (-) TimerEvent: {}
+[1.204220] (-) TimerEvent: {}
+[1.304643] (-) TimerEvent: {}
+[1.405116] (-) TimerEvent: {}
+[1.505512] (-) TimerEvent: {}
+[1.605900] (-) TimerEvent: {}
+[1.706430] (-) TimerEvent: {}
+[1.806755] (-) TimerEvent: {}
+[1.908095] (-) TimerEvent: {}
+[2.008474] (-) TimerEvent: {}
+[2.108844] (-) TimerEvent: {}
+[2.209469] (-) TimerEvent: {}
+[2.310940] (-) TimerEvent: {}
+[2.411373] (-) TimerEvent: {}
+[2.517191] (-) TimerEvent: {}
+[2.617450] (-) TimerEvent: {}
+[2.717922] (-) TimerEvent: {}
+[2.819304] (-) TimerEvent: {}
+[2.921300] (-) TimerEvent: {}
+[3.023126] (-) TimerEvent: {}
+[3.123696] (-) TimerEvent: {}
+[3.227203] (-) TimerEvent: {}
+[3.327912] (-) TimerEvent: {}
+[3.428237] (-) TimerEvent: {}
+[3.529579] (-) TimerEvent: {}
+[3.629876] (-) TimerEvent: {}
+[3.731544] (-) TimerEvent: {}
+[3.833599] (-) TimerEvent: {}
+[3.935688] (-) TimerEvent: {}
+[4.036695] (-) TimerEvent: {}
+[4.137871] (-) TimerEvent: {}
+[4.238436] (-) TimerEvent: {}
+[4.345531] (-) TimerEvent: {}
+[4.446074] (-) TimerEvent: {}
+[4.546792] (-) TimerEvent: {}
+[4.647327] (-) TimerEvent: {}
+[4.748447] (-) TimerEvent: {}
+[4.849964] (-) TimerEvent: {}
+[4.950593] (-) TimerEvent: {}
+[5.050912] (-) TimerEvent: {}
+[5.151596] (-) TimerEvent: {}
+[5.252168] (-) TimerEvent: {}
+[5.353380] (-) TimerEvent: {}
+[5.453949] (-) TimerEvent: {}
+[5.554712] (-) TimerEvent: {}
+[5.655181] (-) TimerEvent: {}
+[5.755537] (-) TimerEvent: {}
+[5.857794] (-) TimerEvent: {}
+[5.958648] (-) TimerEvent: {}
+[6.059530] (-) TimerEvent: {}
+[6.162729] (-) TimerEvent: {}
+[6.267932] (-) TimerEvent: {}
+[6.372340] (-) TimerEvent: {}
+[6.472879] (-) TimerEvent: {}
+[6.578121] (-) TimerEvent: {}
+[6.678841] (-) TimerEvent: {}
+[6.779913] (-) TimerEvent: {}
+[6.881513] (-) TimerEvent: {}
+[6.981826] (-) TimerEvent: {}
+[7.082218] (-) TimerEvent: {}
+[7.182547] (-) TimerEvent: {}
+[7.282857] (-) TimerEvent: {}
+[7.383176] (-) TimerEvent: {}
+[7.483524] (-) TimerEvent: {}
+[7.584718] (-) TimerEvent: {}
+[7.685110] (-) TimerEvent: {}
+[7.785453] (-) TimerEvent: {}
+[7.885735] (-) TimerEvent: {}
+[7.986919] (-) TimerEvent: {}
+[8.089363] (-) TimerEvent: {}
+[8.191243] (-) TimerEvent: {}
+[8.291818] (-) TimerEvent: {}
+[8.392184] (-) TimerEvent: {}
+[8.492941] (-) TimerEvent: {}
+[8.593430] (-) TimerEvent: {}
+[8.693770] (-) TimerEvent: {}
+[8.794165] (-) TimerEvent: {}
+[8.894739] (-) TimerEvent: {}
+[8.997307] (-) TimerEvent: {}
+[9.097799] (-) TimerEvent: {}
+[9.200458] (-) TimerEvent: {}
+[9.220207] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[9.301816] (-) TimerEvent: {}
+[9.402125] (-) TimerEvent: {}
+[9.502443] (-) TimerEvent: {}
+[9.603113] (-) TimerEvent: {}
+[9.623259] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[9.704219] (-) TimerEvent: {}
+[9.804823] (-) TimerEvent: {}
+[9.905322] (-) TimerEvent: {}
+[10.005606] (-) TimerEvent: {}
+[10.106150] (-) TimerEvent: {}
+[10.206493] (-) TimerEvent: {}
+[10.307650] (-) TimerEvent: {}
+[10.407927] (-) TimerEvent: {}
+[10.508665] (-) TimerEvent: {}
+[10.608935] (-) TimerEvent: {}
+[10.709459] (-) TimerEvent: {}
+[10.810334] (-) TimerEvent: {}
+[10.910648] (-) TimerEvent: {}
+[11.011745] (-) TimerEvent: {}
+[11.112310] (-) TimerEvent: {}
+[11.214607] (-) TimerEvent: {}
+[11.322840] (-) TimerEvent: {}
+[11.410937] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[11.428067] (-) TimerEvent: {}
+[11.529421] (-) TimerEvent: {}
+[11.629897] (-) TimerEvent: {}
+[11.680435] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[11.731831] (-) TimerEvent: {}
+[11.749129] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[11.802697] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[11.823567] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/damoon/ROS2_Learning/ros2_ws_2/build/cpp_pubsub'], 'cwd': '/home/damoon/ROS2_Learning/ros2_ws_2/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'damoon'), ('LC_TIME', 'fi_FI.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/damoon/ROS2_Learning/ros2_ws_2/install/turtlesim/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/damoon'), ('OLDPWD', '/home/damoon/ROS2_Learning/ros2_ws_2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fi_FI.UTF-8'), ('SYSTEMD_EXEC_PID', '4890'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/damoon/ROS2_Learning/ros2_ws_2/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'damoon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'damoon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/letc-roseratorkaks:@/tmp/.ICE-unix/1627,unix/letc-roseratorkaks:/tmp/.ICE-unix/1627'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fi_FI.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eb41b3d6_dc9d_4d80_be6e_0632e1b19d1c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fi_FI.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KDV961'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/damoon/ROS2_Learning/ros2_ws_2/install/turtlesim:/home/damoon/ROS2_Learning/ros2_ws_2/install/my_package:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fi_FI.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fi_FI.UTF-8'), ('LC_IDENTIFICATION', 'fi_FI.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/damoon/ROS2_Learning/ros2_ws_2/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/damoon/ROS2_Learning/ros2_ws_2/install/turtlesim/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'fi_FI.UTF-8'), ('LC_PAPER', 'fi_FI.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/damoon/ROS2_Learning/ros2_ws_2/install/turtlesim:/home/damoon/ROS2_Learning/ros2_ws_2/install/my_package:/opt/ros/iron')]), 'shell': False}
+[11.832377] (-) TimerEvent: {}
+[11.833083] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.833653] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[11.834816] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[11.835005] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[11.839339] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[11.839633] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[11.839890] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[11.841480] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[11.841850] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[11.841954] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[11.842149] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[11.842361] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[11.842603] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[11.842902] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[11.843069] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[11.843285] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[11.843550] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[11.843682] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[11.843927] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[11.844297] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[11.854408] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[11.932652] (-) TimerEvent: {}
+[12.030258] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[12.035212] (-) TimerEvent: {}
+[12.035304] (-) EventReactorShutdown: {}

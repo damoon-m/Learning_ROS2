@@ -1,0 +1,6 @@
+Invoking command in '/home/damoon/ROS2_Learning/ros2_ws_2/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/damoon/ROS2_Learning/ros2_ws_2/src/my_package -DCMAKE_INSTALL_PREFIX=/home/damoon/ROS2_Learning/ros2_ws_2/install/my_package
+Invoked command in '/home/damoon/ROS2_Learning/ros2_ws_2/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/damoon/ROS2_Learning/ros2_ws_2/src/my_package -DCMAKE_INSTALL_PREFIX=/home/damoon/ROS2_Learning/ros2_ws_2/install/my_package
+Invoking command in '/home/damoon/ROS2_Learning/ros2_ws_2/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/damoon/ROS2_Learning/ros2_ws_2/build/my_package -- -j2 -l2
+Invoked command in '/home/damoon/ROS2_Learning/ros2_ws_2/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/damoon/ROS2_Learning/ros2_ws_2/build/my_package -- -j2 -l2
+Invoking command in '/home/damoon/ROS2_Learning/ros2_ws_2/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/damoon/ROS2_Learning/ros2_ws_2/build/my_package
+Invoked command in '/home/damoon/ROS2_Learning/ros2_ws_2/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/damoon/ROS2_Learning/ros2_ws_2/build/my_package

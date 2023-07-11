@@ -1,0 +1,50 @@
+[0.012s] Invoking command in '/home/damoon/ROS2_Learning/ros2_ws_2/src/tutorial_interfaces/build/tutorial_interfaces': /usr/bin/cmake /home/damoon/ROS2_Learning/ros2_ws_2/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/damoon/ROS2_Learning/ros2_ws_2/src/tutorial_interfaces/install/tutorial_interfaces
+[0.024s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.127s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[0.148s] -- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.155s] -- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.166s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.181s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.268s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[0.274s] -- Found rosidl_adapter: 4.0.0 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[0.448s] Error parsing '/home/damoon/ROS2_Learning/ros2_ws_2/src/tutorial_interfaces/package.xml':
+[0.486s] Traceback (most recent call last):
+[0.486s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[0.487s]     root = dom.parseString(data)
+[0.487s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 1998, in parseString
+[0.487s]     return expatbuilder.parseString(string)
+[0.487s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[0.487s]     return builder.parseString(string)
+[0.487s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[0.487s]     parser.Parse(string, True)
+[0.487s] xml.parsers.expat.ExpatError: mismatched tag: line 13, column 46
+[0.487s] 
+[0.487s] During handling of the above exception, another exception occurred:
+[0.487s] 
+[0.487s] Traceback (most recent call last):
+[0.487s]   File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.487s]     main()
+[0.487s]   File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.488s]     raise e
+[0.488s]   File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.488s]     package = parse_package_string(
+[0.488s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[0.488s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[0.488s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/damoon/ROS2_Learning/ros2_ws_2/src/tutorial_interfaces/package.xml':
+[0.488s] The manifest contains invalid XML:
+[0.488s] mismatched tag: line 13, column 46
+[0.497s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.497s]   execute_process(/usr/bin/python3.10
+[0.497s]   /opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.497s]   /home/damoon/ROS2_Learning/ros2_ws_2/src/tutorial_interfaces/package.xml
+[0.498s]   /home/damoon/ROS2_Learning/ros2_ws_2/src/tutorial_interfaces/build/tutorial_interfaces/ament_cmake_core/package.cmake)
+[0.498s]   returned error code 1
+[0.498s] Call Stack (most recent call first):
+[0.498s]   /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.498s]   /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:256 (ament_package_xml)
+[0.498s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[0.498s] 
+[0.498s] [0m
+[0.498s] -- Configuring incomplete, errors occurred!
+[0.498s] See also "/home/damoon/ROS2_Learning/ros2_ws_2/src/tutorial_interfaces/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[0.502s] Invoked command in '/home/damoon/ROS2_Learning/ros2_ws_2/src/tutorial_interfaces/build/tutorial_interfaces' returned '1': /usr/bin/cmake /home/damoon/ROS2_Learning/ros2_ws_2/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/damoon/ROS2_Learning/ros2_ws_2/src/tutorial_interfaces/install/tutorial_interfaces

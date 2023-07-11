@@ -1,0 +1,8 @@
+{
+  "package_name": "tutorial_interfaces",
+  "non_idl_tuples": [
+    "/home/damoon/ROS2_Learning/ros2_ws_2/src/tutorial_interfaces:msg/Num.msg",
+    "/home/damoon/ROS2_Learning/ros2_ws_2/src/tutorial_interfaces:msg/Sphere.msg",
+    "/home/damoon/ROS2_Learning/ros2_ws_2/src/tutorial_interfaces:srv/AddThreeInts.srv"
+  ]
+}
