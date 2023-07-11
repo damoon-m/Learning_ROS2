@@ -1,0 +1,47 @@
+[0.495s] Invoking command in '/home/damoon/ROS2_Learning/ros2_ws/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed
+[0.677s] running egg_info
+[0.678s] creating ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info
+[0.678s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[0.678s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[0.678s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[0.678s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[0.678s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[0.678s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[0.681s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[0.682s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[0.682s] running build
+[0.682s] running build_py
+[0.683s] creating /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_publisher/build
+[0.683s] creating /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib
+[0.683s] creating /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[0.683s] copying examples_rclpy_minimal_publisher/__init__.py -> /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[0.683s] copying examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[0.684s] copying examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[0.684s] copying examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[0.684s] running install
+[0.685s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.685s]   warnings.warn(
+[0.685s] running install_lib
+[0.686s] creating /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[0.686s] copying /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/__init__.py -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[0.686s] copying /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[0.687s] copying /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[0.687s] copying /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[0.687s] byte-compiling /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/__init__.py to __init__.cpython-310.pyc
+[0.688s] byte-compiling /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_local_function.py to publisher_local_function.cpython-310.pyc
+[0.688s] byte-compiling /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[0.688s] byte-compiling /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_old_school.py to publisher_old_school.cpython-310.pyc
+[0.689s] running install_data
+[0.689s] creating /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index
+[0.689s] creating /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index
+[0.690s] creating /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[0.690s] copying resource/examples_rclpy_minimal_publisher -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[0.690s] copying package.xml -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_publisher/share/examples_rclpy_minimal_publisher
+[0.690s] running install_egg_info
+[0.692s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.18.0-py3.10.egg-info
+[0.693s] running install_scripts
+[0.710s] Installing publisher_local_function script to /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[0.710s] Installing publisher_member_function script to /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[0.710s] Installing publisher_old_school script to /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[0.710s] writing list of installed files to '/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_publisher/install.log'
+[0.733s] Invoked command in '/home/damoon/ROS2_Learning/ros2_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed

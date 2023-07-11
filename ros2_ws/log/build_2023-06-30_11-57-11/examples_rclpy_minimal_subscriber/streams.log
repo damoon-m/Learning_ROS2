@@ -1,0 +1,47 @@
+[0.479s] Invoking command in '/home/damoon/ROS2_Learning/ros2_ws/src/examples/rclpy/topics/minimal_subscriber': PYTHONPATH=/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed
+[0.848s] running egg_info
+[0.848s] creating ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info
+[0.855s] writing ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[0.855s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[0.855s] writing entry points to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[0.855s] writing requirements to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[0.855s] writing top-level names to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[0.855s] writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[0.855s] reading manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[0.855s] writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[0.855s] running build
+[0.856s] running build_py
+[0.856s] creating /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_subscriber/build
+[0.856s] creating /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib
+[0.857s] creating /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[0.857s] copying examples_rclpy_minimal_subscriber/subscriber_old_school.py -> /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[0.857s] copying examples_rclpy_minimal_subscriber/__init__.py -> /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[0.857s] copying examples_rclpy_minimal_subscriber/subscriber_lambda.py -> /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[0.858s] copying examples_rclpy_minimal_subscriber/subscriber_member_function.py -> /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[0.858s] running install
+[0.859s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.859s]   warnings.warn(
+[0.860s] running install_lib
+[0.862s] creating /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+[0.862s] copying /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_old_school.py -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+[0.863s] copying /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/__init__.py -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+[0.866s] copying /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_lambda.py -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+[0.866s] copying /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_member_function.py -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+[0.866s] byte-compiling /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber/subscriber_old_school.py to subscriber_old_school.cpython-310.pyc
+[0.866s] byte-compiling /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber/__init__.py to __init__.cpython-310.pyc
+[0.866s] byte-compiling /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber/subscriber_lambda.py to subscriber_lambda.cpython-310.pyc
+[0.866s] byte-compiling /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[0.866s] running install_data
+[0.867s] creating /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index
+[0.867s] creating /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index
+[0.867s] creating /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[0.867s] copying resource/examples_rclpy_minimal_subscriber -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[0.867s] copying package.xml -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+[0.868s] running install_egg_info
+[0.869s] Copying ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info to /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber-0.18.0-py3.10.egg-info
+[0.870s] running install_scripts
+[0.892s] Installing subscriber_lambda script to /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[0.892s] Installing subscriber_member_function script to /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[0.892s] Installing subscriber_old_school script to /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[0.893s] writing list of installed files to '/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log'
+[0.920s] Invoked command in '/home/damoon/ROS2_Learning/ros2_ws/src/examples/rclpy/topics/minimal_subscriber' returned '0': PYTHONPATH=/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed

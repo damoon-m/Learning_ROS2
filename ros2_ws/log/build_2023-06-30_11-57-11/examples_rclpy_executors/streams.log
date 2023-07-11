@@ -1,0 +1,59 @@
+[0.719s] Invoking command in '/home/damoon/ROS2_Learning/ros2_ws/src/examples/rclpy/executors': PYTHONPATH=/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_executors/prefix_override:/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_executors/build install --record /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed
+[0.891s] running egg_info
+[0.892s] creating ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info
+[0.892s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[0.892s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[0.892s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[0.892s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[0.893s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[0.893s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[0.894s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[0.895s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[0.895s] running build
+[0.895s] running build_py
+[0.896s] creating /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_executors/build
+[0.896s] creating /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_executors/build/lib
+[0.896s] creating /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[0.896s] copying examples_rclpy_executors/listener.py -> /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[0.896s] copying examples_rclpy_executors/composed.py -> /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[0.897s] copying examples_rclpy_executors/custom_callback_group.py -> /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[0.897s] copying examples_rclpy_executors/talker.py -> /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[0.897s] copying examples_rclpy_executors/custom_executor.py -> /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[0.897s] copying examples_rclpy_executors/__init__.py -> /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[0.897s] copying examples_rclpy_executors/callback_group.py -> /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[0.898s] running install
+[0.898s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.898s]   warnings.warn(
+[0.899s] running install_lib
+[0.899s] creating /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[0.899s] copying /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/listener.py -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[0.899s] copying /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/composed.py -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[0.900s] copying /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_callback_group.py -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[0.900s] copying /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/talker.py -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[0.900s] copying /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_executor.py -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[0.900s] copying /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/__init__.py -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[0.900s] copying /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/callback_group.py -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[0.901s] byte-compiling /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/listener.py to listener.cpython-310.pyc
+[0.901s] byte-compiling /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/composed.py to composed.cpython-310.pyc
+[0.902s] byte-compiling /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/custom_callback_group.py to custom_callback_group.cpython-310.pyc
+[0.902s] byte-compiling /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/talker.py to talker.cpython-310.pyc
+[0.903s] byte-compiling /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/custom_executor.py to custom_executor.cpython-310.pyc
+[0.903s] byte-compiling /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/__init__.py to __init__.cpython-310.pyc
+[0.903s] byte-compiling /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/callback_group.py to callback_group.cpython-310.pyc
+[0.904s] running install_data
+[0.904s] creating /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/share/ament_index
+[0.904s] creating /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index
+[0.904s] creating /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[0.905s] copying resource/examples_rclpy_executors -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[0.905s] copying package.xml -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/share/examples_rclpy_executors
+[0.905s] running install_egg_info
+[0.906s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.18.0-py3.10.egg-info
+[0.907s] running install_scripts
+[0.923s] Installing callback_group script to /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[0.923s] Installing composed script to /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[0.923s] Installing custom_callback_group script to /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[0.923s] Installing custom_executor script to /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[0.923s] Installing listener script to /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[0.923s] Installing talker script to /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[0.924s] writing list of installed files to '/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_executors/install.log'
+[0.943s] Invoked command in '/home/damoon/ROS2_Learning/ros2_ws/src/examples/rclpy/executors' returned '0': PYTHONPATH=/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_executors/prefix_override:/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_executors/build install --record /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed

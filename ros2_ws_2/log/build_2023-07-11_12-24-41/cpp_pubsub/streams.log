@@ -1,0 +1,29 @@
+[0.014s] Invoking command in '/home/damoon/ROS2_Learning/ros2_ws_2/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/damoon/ROS2_Learning/ros2_ws_2/install/py_srvcli:/home/damoon/ROS2_Learning/ros2_ws_2/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --build /home/damoon/ROS2_Learning/ros2_ws_2/build/cpp_pubsub -- -j2 -l2
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.055s] [ 50%] Built target talker
+[0.059s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[5.464s] [100%] [32m[1mLinking CXX executable listener[0m
+[5.722s] [100%] Built target listener
+[5.730s] Invoked command in '/home/damoon/ROS2_Learning/ros2_ws_2/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/damoon/ROS2_Learning/ros2_ws_2/install/py_srvcli:/home/damoon/ROS2_Learning/ros2_ws_2/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --build /home/damoon/ROS2_Learning/ros2_ws_2/build/cpp_pubsub -- -j2 -l2
+[5.756s] Invoking command in '/home/damoon/ROS2_Learning/ros2_ws_2/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/damoon/ROS2_Learning/ros2_ws_2/install/py_srvcli:/home/damoon/ROS2_Learning/ros2_ws_2/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --install /home/damoon/ROS2_Learning/ros2_ws_2/build/cpp_pubsub
+[5.761s] -- Install configuration: ""
+[5.762s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/lib/cpp_pubsub/talker
+[5.763s] -- Set runtime path of "/home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[5.764s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/lib/cpp_pubsub/listener
+[5.768s] -- Set runtime path of "/home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[5.769s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[5.769s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[5.769s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[5.770s] -- Up-to-date: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[5.770s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[5.770s] -- Up-to-date: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[5.770s] -- Up-to-date: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[5.771s] -- Up-to-date: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[5.771s] -- Up-to-date: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[5.771s] -- Up-to-date: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[5.771s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[5.771s] -- Up-to-date: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[5.771s] -- Up-to-date: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[5.771s] -- Up-to-date: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[5.772s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[5.778s] Invoked command in '/home/damoon/ROS2_Learning/ros2_ws_2/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/damoon/ROS2_Learning/ros2_ws_2/install/py_srvcli:/home/damoon/ROS2_Learning/ros2_ws_2/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --install /home/damoon/ROS2_Learning/ros2_ws_2/build/cpp_pubsub

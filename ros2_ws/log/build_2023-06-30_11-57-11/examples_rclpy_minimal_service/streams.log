@@ -1,0 +1,43 @@
+[0.610s] Invoking command in '/home/damoon/ROS2_Learning/ros2_ws/src/examples/rclpy/services/minimal_service': PYTHONPATH=/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_service/build install --record /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed
+[0.788s] running egg_info
+[0.790s] creating ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info
+[0.790s] writing ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/PKG-INFO
+[0.790s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[0.790s] writing entry points to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/entry_points.txt
+[0.790s] writing requirements to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/requires.txt
+[0.790s] writing top-level names to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/top_level.txt
+[0.790s] writing manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[0.792s] reading manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[0.793s] writing manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[0.793s] running build
+[0.793s] running build_py
+[0.793s] creating /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_service/build
+[0.793s] creating /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_service/build/lib
+[0.794s] creating /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[0.794s] copying examples_rclpy_minimal_service/service.py -> /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[0.794s] copying examples_rclpy_minimal_service/service_member_function.py -> /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[0.794s] copying examples_rclpy_minimal_service/__init__.py -> /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[0.795s] running install
+[0.795s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.795s]   warnings.warn(
+[0.795s] running install_lib
+[0.796s] creating /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[0.796s] copying /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service.py -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[0.796s] copying /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service_member_function.py -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[0.797s] copying /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/__init__.py -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[0.797s] byte-compiling /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service.py to service.cpython-310.pyc
+[0.797s] byte-compiling /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service_member_function.py to service_member_function.cpython-310.pyc
+[0.798s] byte-compiling /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/__init__.py to __init__.cpython-310.pyc
+[0.798s] running install_data
+[0.799s] creating /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index
+[0.799s] creating /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index
+[0.799s] creating /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[0.799s] copying resource/examples_rclpy_minimal_service -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[0.799s] copying package.xml -> /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service
+[0.800s] running install_egg_info
+[0.802s] Copying ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info to /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service-0.18.0-py3.10.egg-info
+[0.802s] running install_scripts
+[0.818s] Installing service script to /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[0.818s] Installing service_member_function script to /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[0.819s] writing list of installed files to '/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_service/install.log'
+[0.845s] Invoked command in '/home/damoon/ROS2_Learning/ros2_ws/src/examples/rclpy/services/minimal_service' returned '0': PYTHONPATH=/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_service/build install --record /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed

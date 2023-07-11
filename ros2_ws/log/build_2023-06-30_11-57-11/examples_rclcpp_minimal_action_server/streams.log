@@ -1,0 +1,72 @@
+[0.033s] Invoking command in '/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/damoon/ROS2_Learning/ros2_ws/src/examples/rclcpp/actions/minimal_action_server -DCMAKE_INSTALL_PREFIX=/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_action_server
+[0.123s] -- The C compiler identification is GNU 11.3.0
+[0.167s] -- The CXX compiler identification is GNU 11.3.0
+[0.176s] -- Detecting C compiler ABI info
+[0.230s] -- Detecting C compiler ABI info - done
+[0.236s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.237s] -- Detecting C compile features
+[0.237s] -- Detecting C compile features - done
+[0.241s] -- Detecting CXX compiler ABI info
+[0.297s] -- Detecting CXX compiler ABI info - done
+[0.304s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.304s] -- Detecting CXX compile features
+[0.304s] -- Detecting CXX compile features - done
+[0.311s] -- Found ament_cmake: 2.0.2 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.459s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.545s] -- Found example_interfaces: 0.10.2 (/opt/ros/iron/share/example_interfaces/cmake)
+[0.585s] -- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.597s] -- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.616s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.638s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.882s] -- Found rclcpp: 21.0.1 (/opt/ros/iron/share/rclcpp/cmake)
+[0.986s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.989s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.085s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.107s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.142s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.308s] -- Found rclcpp_action: 21.0.1 (/opt/ros/iron/share/rclcpp_action/cmake)
+[1.347s] -- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.425s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.426s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.426s] -- Configured cppcheck include dirs: 
+[1.426s] -- Configured cppcheck exclude dirs and/or files: 
+[1.427s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.427s] -- Configured cpplint exclude dirs and/or files: 
+[1.428s] -- Added test 'lint_cmake' to check CMake code style
+[1.428s] -- Added test 'uncrustify' to check C / C++ code style
+[1.428s] -- Configured uncrustify additional arguments: 
+[1.429s] -- Added test 'xmllint' to check XML markup files
+[1.430s] -- Configuring done
+[1.442s] -- Generating done
+[1.444s] -- Build files have been written to: /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclcpp_minimal_action_server
+[1.451s] Invoked command in '/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/damoon/ROS2_Learning/ros2_ws/src/examples/rclcpp/actions/minimal_action_server -DCMAKE_INSTALL_PREFIX=/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_action_server
+[1.453s] Invoking command in '/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclcpp_minimal_action_server -- -j2 -l2
+[1.489s] [ 25%] [32mBuilding CXX object CMakeFiles/action_server_member_functions.dir/member_functions.cpp.o[0m
+[6.254s] [ 50%] [32m[1mLinking CXX executable action_server_member_functions[0m
+[6.439s] [ 50%] Built target action_server_member_functions
+[6.459s] [ 75%] [32mBuilding CXX object CMakeFiles/action_server_not_composable.dir/not_composable.cpp.o[0m
+[10.441s] [100%] [32m[1mLinking CXX executable action_server_not_composable[0m
+[10.604s] [100%] Built target action_server_not_composable
+[10.613s] Invoked command in '/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclcpp_minimal_action_server -- -j2 -l2
+[10.634s] Invoking command in '/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclcpp_minimal_action_server
+[10.640s] -- Install configuration: ""
+[10.641s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_not_composable
+[10.641s] -- Set runtime path of "/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_not_composable" to ""
+[10.642s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_member_functions
+[10.643s] -- Set runtime path of "/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_member_functions" to ""
+[10.643s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_server
+[10.643s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_server
+[10.643s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.sh
+[10.643s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.dsv
+[10.643s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.sh
+[10.644s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.dsv
+[10.644s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.bash
+[10.644s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.sh
+[10.644s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.zsh
+[10.644s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.dsv
+[10.644s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.dsv
+[10.644s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_server
+[10.644s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig.cmake
+[10.644s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig-version.cmake
+[10.645s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.xml
+[10.646s] Invoked command in '/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclcpp_minimal_action_server

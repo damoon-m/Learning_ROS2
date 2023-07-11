@@ -1,0 +1,28 @@
+[0.465s] Invoking command in '/home/damoon/ROS2_Learning/ros2_ws_2/src/py_srvcli': CMAKE_PREFIX_PATH=/home/damoon/ROS2_Learning/ros2_ws_2/install/tutorial_interfaces:/home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub:/home/damoon/ROS2_Learning/ros2_ws_2/install/turtlesim:/home/damoon/ROS2_Learning/ros2_ws_2/install/my_package PYTHONPATH=/home/damoon/ROS2_Learning/ros2_ws_2/build/py_srvcli/prefix_override:/home/damoon/ROS2_Learning/ros2_ws_2/install/py_srvcli/lib/python3.10/site-packages:/home/damoon/ROS2_Learning/ros2_ws_2/install/tutorial_interfaces/lib/python3.10/site-packages:/home/damoon/ROS2_Learning/ros2_ws_2/install/py_srvcli/lib/python3.10/site-packages:/home/damoon/ROS2_Learning/ros2_ws_2/install/py_pubsub/lib/python3.10/site-packages:/home/damoon/ROS2_Learning/ros2_ws_2/install/turtlesim/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/damoon/ROS2_Learning/ros2_ws_2/build/py_srvcli/build install --record /home/damoon/ROS2_Learning/ros2_ws_2/build/py_srvcli/install.log --single-version-externally-managed
+[0.647s] running egg_info
+[0.648s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[0.648s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[0.648s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[0.649s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[0.649s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[0.650s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.651s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.651s] running build
+[0.651s] running build_py
+[0.651s] copying py_srvcli/client_member_function.py -> /home/damoon/ROS2_Learning/ros2_ws_2/build/py_srvcli/build/lib/py_srvcli
+[0.652s] running install
+[0.652s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.652s]   warnings.warn(
+[0.652s] running install_lib
+[0.653s] copying /home/damoon/ROS2_Learning/ros2_ws_2/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/damoon/ROS2_Learning/ros2_ws_2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.653s] byte-compiling /home/damoon/ROS2_Learning/ros2_ws_2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-310.pyc
+[0.653s] running install_data
+[0.654s] copying package.xml -> /home/damoon/ROS2_Learning/ros2_ws_2/install/py_srvcli/share/py_srvcli
+[0.654s] running install_egg_info
+[0.655s] removing '/home/damoon/ROS2_Learning/ros2_ws_2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[0.655s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/damoon/ROS2_Learning/ros2_ws_2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[0.656s] running install_scripts
+[0.671s] Installing client script to /home/damoon/ROS2_Learning/ros2_ws_2/install/py_srvcli/lib/py_srvcli
+[0.671s] Installing service script to /home/damoon/ROS2_Learning/ros2_ws_2/install/py_srvcli/lib/py_srvcli
+[0.672s] writing list of installed files to '/home/damoon/ROS2_Learning/ros2_ws_2/build/py_srvcli/install.log'
+[0.691s] Invoked command in '/home/damoon/ROS2_Learning/ros2_ws_2/src/py_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/damoon/ROS2_Learning/ros2_ws_2/install/tutorial_interfaces:/home/damoon/ROS2_Learning/ros2_ws_2/install/cpp_pubsub:/home/damoon/ROS2_Learning/ros2_ws_2/install/turtlesim:/home/damoon/ROS2_Learning/ros2_ws_2/install/my_package PYTHONPATH=/home/damoon/ROS2_Learning/ros2_ws_2/build/py_srvcli/prefix_override:/home/damoon/ROS2_Learning/ros2_ws_2/install/py_srvcli/lib/python3.10/site-packages:/home/damoon/ROS2_Learning/ros2_ws_2/install/tutorial_interfaces/lib/python3.10/site-packages:/home/damoon/ROS2_Learning/ros2_ws_2/install/py_srvcli/lib/python3.10/site-packages:/home/damoon/ROS2_Learning/ros2_ws_2/install/py_pubsub/lib/python3.10/site-packages:/home/damoon/ROS2_Learning/ros2_ws_2/install/turtlesim/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/damoon/ROS2_Learning/ros2_ws_2/build/py_srvcli/build install --record /home/damoon/ROS2_Learning/ros2_ws_2/build/py_srvcli/install.log --single-version-externally-managed

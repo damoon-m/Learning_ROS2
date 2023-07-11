@@ -1,0 +1,120 @@
+[0.007s] Invoking command in '/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/damoon/ROS2_Learning/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber
+[0.047s] -- The C compiler identification is GNU 11.3.0
+[0.096s] -- The CXX compiler identification is GNU 11.3.0
+[0.105s] -- Detecting C compiler ABI info
+[0.181s] -- Detecting C compiler ABI info - done
+[0.181s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.183s] -- Detecting C compile features
+[0.183s] -- Detecting C compile features - done
+[0.186s] -- Detecting CXX compiler ABI info
+[0.271s] -- Detecting CXX compiler ABI info - done
+[0.275s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.275s] -- Detecting CXX compile features
+[0.276s] -- Detecting CXX compile features - done
+[0.279s] -- Found ament_cmake: 2.0.2 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.444s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.519s] -- Found rclcpp: 21.0.1 (/opt/ros/iron/share/rclcpp/cmake)
+[0.556s] -- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.568s] -- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.582s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.600s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.746s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.748s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.841s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.861s] -- Found FastRTPS: /opt/ros/iron/include  
+[0.908s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.088s] -- Found rclcpp_components: 21.0.1 (/opt/ros/iron/share/rclcpp_components/cmake)
+[1.221s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[1.258s] -- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.351s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.355s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.355s] -- Configured cppcheck include dirs: 
+[1.355s] -- Configured cppcheck exclude dirs and/or files: 
+[1.355s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.355s] -- Configured cpplint exclude dirs and/or files: 
+[1.356s] -- Added test 'lint_cmake' to check CMake code style
+[1.357s] -- Added test 'uncrustify' to check C / C++ code style
+[1.357s] -- Configured uncrustify additional arguments: 
+[1.358s] -- Added test 'xmllint' to check XML markup files
+[1.359s] -- Configuring done
+[1.393s] -- Generating done
+[1.394s] -- Build files have been written to: /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclcpp_minimal_subscriber
+[1.402s] Invoked command in '/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/damoon/ROS2_Learning/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber
+[1.403s] Invoking command in '/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j2 -l2
+[1.444s] [  4%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[7.763s] [  8%] [32m[1mLinking CXX executable subscriber_lambda[0m
+[8.019s] [  8%] Built target subscriber_lambda
+[8.032s] [ 12%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[14.479s] [ 16%] [32m[1mLinking CXX executable subscriber_member_function[0m
+[14.816s] [ 16%] Built target subscriber_member_function
+[14.836s] [ 20%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o[0m
+[21.711s] [ 25%] [32m[1mLinking CXX executable subscriber_member_function_with_topic_statistics[0m
+[21.976s] [ 25%] Built target subscriber_member_function_with_topic_statistics
+[21.991s] [ 29%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[28.932s] [ 33%] [32m[1mLinking CXX executable subscriber_member_function_with_type_adapter[0m
+[29.312s] [ 33%] Built target subscriber_member_function_with_type_adapter
+[29.330s] [ 37%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[35.803s] [ 41%] [32m[1mLinking CXX executable subscriber_member_function_with_unique_network_flow_endpoints[0m
+[36.128s] [ 41%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[36.148s] [ 45%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[42.103s] [ 50%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[42.362s] [ 50%] Built target subscriber_not_composable
+[42.377s] [ 54%] [32mBuilding CXX object CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o[0m
+[48.619s] [ 58%] [32m[1mLinking CXX executable subscriber_content_filtering[0m
+[48.868s] [ 58%] Built target subscriber_content_filtering
+[48.883s] [ 62%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/wait_set_subscriber.cpp.o[0m
+[55.567s] [ 66%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/static_wait_set_subscriber.cpp.o[0m
+[61.601s] [ 70%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/time_triggered_wait_set_subscriber.cpp.o[0m
+[69.637s] [ 75%] [32m[1mLinking CXX shared library libwait_set_subscriber_library.so[0m
+[70.234s] [ 75%] Built target wait_set_subscriber_library
+[70.252s] [ 79%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber.dir/rclcpp_components/node_main_wait_set_subscriber.cpp.o[0m
+[73.672s] [ 83%] [32m[1mLinking CXX executable wait_set_subscriber[0m
+[73.778s] [ 83%] Built target wait_set_subscriber
+[73.793s] [ 87%] [32mBuilding CXX object CMakeFiles/static_wait_set_subscriber.dir/rclcpp_components/node_main_static_wait_set_subscriber.cpp.o[0m
+[77.515s] [ 91%] [32m[1mLinking CXX executable static_wait_set_subscriber[0m
+[77.620s] [ 91%] Built target static_wait_set_subscriber
+[77.635s] [ 95%] [32mBuilding CXX object CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o[0m
+[80.955s] [100%] [32m[1mLinking CXX executable time_triggered_wait_set_subscriber[0m
+[81.077s] [100%] Built target time_triggered_wait_set_subscriber
+[81.116s] Invoked command in '/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j2 -l2
+[81.169s] Invoking command in '/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclcpp_minimal_subscriber
+[81.177s] -- Install configuration: ""
+[81.178s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber
+[81.179s] -- Set runtime path of "/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber" to ""
+[81.179s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber
+[81.180s] -- Set runtime path of "/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber" to ""
+[81.180s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber
+[81.181s] -- Set runtime path of "/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber" to ""
+[81.181s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so
+[81.186s] -- Set runtime path of "/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so" to ""
+[81.187s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[81.194s] -- Set runtime path of "/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda" to ""
+[81.195s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[81.203s] -- Set runtime path of "/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function" to ""
+[81.203s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+[81.216s] -- Set runtime path of "/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics" to ""
+[81.217s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter
+[81.230s] -- Set runtime path of "/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter" to ""
+[81.230s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints
+[81.240s] -- Set runtime path of "/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints" to ""
+[81.240s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[81.248s] -- Set runtime path of "/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable" to ""
+[81.248s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering
+[81.258s] -- Set runtime path of "/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering" to ""
+[81.259s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[81.259s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[81.260s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[81.261s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[81.261s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[81.261s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[81.262s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[81.262s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[81.263s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[81.263s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[81.263s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[81.264s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[81.264s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_minimal_subscriber
+[81.265s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[81.265s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[81.265s] -- Installing: /home/damoon/ROS2_Learning/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[81.270s] Invoked command in '/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclcpp_minimal_subscriber

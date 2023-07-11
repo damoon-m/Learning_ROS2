@@ -1,0 +1,22 @@
+[0.186s] Invoking command in '/home/damoon/ROS2_Learning/ros2_ws/src/examples/rclpy/actions/minimal_action_server': AMENT_PREFIX_PATH=/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_action_server:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_action_server/pytest.xml --junit-prefix=examples_rclpy_minimal_action_server -o cache_dir=/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_action_server/.pytest_cache PYTHONPATH=/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[0.386s] [1m============================= test session starts ==============================[0m
+[0.386s] platform linux -- Python 3.10.6, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.390s] cachedir: /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_action_server/.pytest_cache
+[0.390s] rootdir: /home/damoon/ROS2_Learning/ros2_ws/src/examples/rclpy, configfile: pytest.ini
+[0.390s] plugins: launch-testing-2.0.1, launch-testing-ros-0.24.0, ament-pep257-0.14.1, ament-xmllint-0.14.1, ament-lint-0.14.1, ament-copyright-0.14.1, ament-flake8-0.14.1, colcon-core-0.12.1, cov-3.0.0
+[0.447s] [1mcollecting ... [0m[1m
+[0.447s] collected 3 items                                                              [0m
+[0.448s] 
+[0.655s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[0.810s] test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+[0.860s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[0.860s] 
+[0.860s] [33m=============================== warnings summary ===============================[0m
+[0.860s] actions/minimal_action_server/test/test_flake8.py::test_flake8
+[0.860s] actions/minimal_action_server/test/test_flake8.py::test_flake8
+[0.860s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[0.860s] 
+[0.861s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[0.861s] - generated xml file: /home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_action_server/pytest.xml -
+[0.861s] [33m======================== [32m3 passed[0m, [33m[1m2 warnings[0m[33m in 0.47s[0m[33m =========================[0m
+[0.927s] Invoked command in '/home/damoon/ROS2_Learning/ros2_ws/src/examples/rclpy/actions/minimal_action_server' returned '0': AMENT_PREFIX_PATH=/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_action_server:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_action_server/pytest.xml --junit-prefix=examples_rclpy_minimal_action_server -o cache_dir=/home/damoon/ROS2_Learning/ros2_ws/build/examples_rclpy_minimal_action_server/.pytest_cache PYTHONPATH=/home/damoon/ROS2_Learning/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

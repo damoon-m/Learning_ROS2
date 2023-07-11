@@ -1,0 +1,167 @@
+[0.015s] Invoking command in '/home/damoon/ROS2_Learning/ros2_ws_2/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/damoon/ROS2_Learning/ros2_ws_2/install/py_srvcli:/home/damoon/ROS2_Learning/ros2_ws_2/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --build /home/damoon/ROS2_Learning/ros2_ws_2/build/cpp_pubsub -- -j2 -l2
+[0.069s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.195s] -- Found rclcpp: 21.0.1 (/opt/ros/iron/share/rclcpp/cmake)
+[0.234s] -- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.244s] -- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.257s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.429s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.434s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.552s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.724s] -- Found tutorial_interfaces: 0.0.0 (/home/damoon/ROS2_Learning/ros2_ws_2/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.907s] -- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[0.965s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.966s] -- Configured cppcheck include dirs: 
+[0.966s] -- Configured cppcheck exclude dirs and/or files: 
+[0.967s] -- Added test 'lint_cmake' to check CMake code style
+[0.968s] -- Added test 'uncrustify' to check C / C++ code style
+[0.968s] -- Configured uncrustify additional arguments: 
+[0.968s] -- Added test 'xmllint' to check XML markup files
+[0.969s] -- Configuring done
+[0.987s] -- Generating done
+[0.989s] -- Build files have been written to: /home/damoon/ROS2_Learning/ros2_ws_2/build/cpp_pubsub
+[1.008s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[1.008s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[1.046s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[1.046s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[4.772s] [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:34:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ in namespace ‘[01m[Ktutorial_interfaces[m[K’ does not name a type
+[4.778s]    34 |   void topic_callback(const tutorial_interfaces::[01;31m[Kmsg[m[K:Num & msg) const
+[4.778s]       |                                                  [01;31m[K^~~[m[K
+[4.779s] In file included from [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp:7[m[K,
+[4.779s]                  from [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:19[m[K:
+[4.780s] [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Ktutorial_interfaces::msg[m[K’ declared here
+[4.780s]    27 | namespace [01;36m[Kmsg[m[K
+[4.780s]       |           [01;36m[K^~~[m[K
+[4.780s] [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:34:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K:[m[K’ token
+[4.781s]    34 |   void topic_callback(const tutorial_interfaces::msg[01;31m[K:[m[KNum & msg) const
+[4.781s]       |                                                     [01;31m[K^[m[K
+[4.781s] [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:38:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.781s]    38 |   rclcpp::Subscription<tutorial_interfaces::msg:Num[01;31m[K>[m[K::SharedPtr subscription_;
+[4.781s]       |                                                    [01;31m[K^[m[K
+[4.781s] [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:38:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[4.781s] [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:38:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[4.781s] [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:38:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[4.785s] [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:38:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.785s]    38 |   rclcpp::Subscription<tutorial_interfaces::msg:Num>::[01;31m[KSharedPtr[m[K subscription_;
+[4.785s]       |                                                       [01;31m[K^~~~~~~~~[m[K
+[4.785s]       |                                                                [32m[K;[m[K
+[4.789s] [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:38:65:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[4.789s]    38 |   rclcpp::Subscription<tutorial_interfaces::msg:Num>::SharedPtr [01;31m[Ksubscription_[m[K;
+[4.789s]       |                                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[4.789s]       |                                                                 [32m[Krmw_subscription_t[m[K
+[4.801s] [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[4.801s] [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:29:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[4.801s]    29 |     [01;31m[Ksubscription_[m[K = this->create_subscription<turorial_interfaces::msg:Num>(
+[4.801s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[4.801s]       |     [32m[Krmw_subscription_t[m[K
+[4.806s] [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:29:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kturorial_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Ktutorial_interfaces[m[K’?
+[4.806s]    29 |     subscription_ = this->create_subscription<[01;31m[Kturorial_interfaces[m[K::msg:Num>(
+[4.806s]       |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.806s]       |                                               [32m[Ktutorial_interfaces[m[K
+[4.813s] [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:29:27:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[4.813s]    29 |     subscription_ = this->[01;31m[Kcreate_subscription<turorial_interfaces::msg:Num>[m[K(
+[4.813s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.820s] [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:29:76:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::create_subscription<<expression error> >(const char [6], int, std::_Bind_helper<false, void (MinimalSubscriber::*)(int) const, MinimalSubscriber*, const std::_Placeholder<1>&>::type)[m[K’
+[4.820s]    29 |     subscription_ = [01;31m[Kthis->create_subscription<turorial_interfaces::msg:Num>([m[K
+[4.820s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.820s]    30 | [01;31m[K      "topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1))[m[K;
+[4.820s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K 
+[4.823s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.823s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[4.823s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[4.823s]                  from [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:18[m[K:
+[4.823s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[4.823s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[4.824s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.824s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.824s] [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:29:76:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.824s]    29 |     subscription_ = [01;31m[Kthis->create_subscription<turorial_interfaces::msg:Num>([m[K
+[4.824s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.824s]    30 | [01;31m[K      "topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1))[m[K;
+[4.824s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K 
+[4.825s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[4.825s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.825s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.825s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.825s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.825s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.825s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.825s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.826s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.826s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[4.826s]                  from [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:18[m[K:
+[4.826s] [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(int) const[m[K’:
+[4.826s] [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:36:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[4.826s]    36 |     RCLCPP_INFO_STREAM(this->get_logger(), "I heard: '" << [01;31m[Kmsg[m[K.num() << "'");
+[4.826s]       |                                                            [01;31m[K^~~[m[K
+[4.827s] [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:36:60:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.828s] In file included from [01m[K/opt/ros/iron/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:7[m[K,
+[4.828s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/time.hpp:18[m[K,
+[4.828s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/clock.hpp:24[m[K,
+[4.828s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:38[m[K,
+[4.829s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.829s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.829s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.829s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.829s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.829s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.829s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.829s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.829s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[4.829s]                  from [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:18[m[K:
+[4.829s] [01m[K/opt/ros/iron/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[4.830s]    27 | namespace [01;36m[Kmsg[m[K
+[4.830s]       |           [01;36m[K^~~[m[K
+[4.830s] In file included from [01m[K/opt/ros/iron/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+[4.830s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/qos_overriding_options.hpp:28[m[K,
+[4.830s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+[4.830s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+[4.831s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[4.831s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.831s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.831s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.831s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.831s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.831s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.831s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[4.831s]                  from [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:18[m[K:
+[4.831s] [01m[K/opt/ros/iron/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[4.831s]    27 | namespace [01;36m[Kmsg[m[K
+[4.831s]       |           [01;36m[K^~~[m[K
+[4.832s] In file included from [01m[K/opt/ros/iron/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23[m[K,
+[4.833s]                  from [01m[K/opt/ros/iron/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[4.833s]                  from [01m[K/opt/ros/iron/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[4.833s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[4.833s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[4.833s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[4.833s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.833s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.833s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.833s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.834s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.834s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.834s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[4.834s]                  from [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:18[m[K:
+[4.834s] [01m[K/opt/ros/iron/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[4.834s]    27 | namespace [01;36m[Kmsg[m[K
+[4.834s]       |           [01;36m[K^~~[m[K
+[4.835s] In file included from [01m[K/opt/ros/iron/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:236[m[K,
+[4.835s]                  from [01m[K/opt/ros/iron/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+[4.835s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+[4.835s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[4.836s]                  from [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:18[m[K:
+[4.836s] [01m[K/opt/ros/iron/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kservice_msgs::msg[m[K’
+[4.836s]    31 | namespace [01;36m[Kmsg[m[K
+[4.836s]       |           [01;36m[K^~~[m[K
+[4.836s] In file included from [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp:7[m[K,
+[4.836s]                  from [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:19[m[K:
+[4.836s] [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktutorial_interfaces::msg[m[K’
+[4.836s]    27 | namespace [01;36m[Kmsg[m[K
+[4.836s]       |           [01;36m[K^~~[m[K
+[5.817s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[5.826s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+[5.827s] gmake[1]: *** Waiting for unfinished jobs....
+[6.984s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[7.189s] [ 75%] Built target talker
+[7.193s] gmake: *** [Makefile:146: all] Error 2
+[7.259s] Invoked command in '/home/damoon/ROS2_Learning/ros2_ws_2/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/damoon/ROS2_Learning/ros2_ws_2/install/py_srvcli:/home/damoon/ROS2_Learning/ros2_ws_2/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --build /home/damoon/ROS2_Learning/ros2_ws_2/build/cpp_pubsub -- -j2 -l2

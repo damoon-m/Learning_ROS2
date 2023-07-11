@@ -1,0 +1,44 @@
+[01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:29:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kturorial_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Ktutorial_interfaces[m[K’?
+   29 |     subscription_ = this->create_subscription<[01;31m[Kturorial_interfaces[m[K::msg::Num>(
+      |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                               [32m[Ktutorial_interfaces[m[K
+[01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:29:27:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   29 |     subscription_ = this->[01;31m[Kcreate_subscription<turorial_interfaces::msg::Num>[m[K(
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:29:77:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::create_subscription<<expression error> >(const char [6], int, std::_Bind_helper<false, void (MinimalSubscriber::*)(const tutorial_interfaces::msg::Num_<std::allocator<void> >&) const, MinimalSubscriber*, const std::_Placeholder<1>&>::type)[m[K’
+   29 |     subscription_ = [01;31m[Kthis->create_subscription<turorial_interfaces::msg::Num>([m[K
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   30 | [01;31m[K      "topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:18[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:29:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   29 |     subscription_ = [01;31m[Kthis->create_subscription<turorial_interfaces::msg::Num>([m[K
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   30 | [01;31m[K      "topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:18[m[K:
+[01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const Num&) const[m[K’:
+[01m[K/home/damoon/ROS2_Learning/ros2_ws_2/src/cpp_pubsub/src/subscriber_member_function.cpp:36:72:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+   36 |     RCLCPP_INFO_STREAM(this->get_logger(), "I heard:sdfsd '" << [01;31m[Kmsg.num()[m[K << "'");
+      |                                                                 [01;31m[K~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
