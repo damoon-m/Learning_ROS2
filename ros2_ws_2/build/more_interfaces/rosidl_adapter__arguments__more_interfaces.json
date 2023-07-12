@@ -1,0 +1,6 @@
+{
+  "package_name": "more_interfaces",
+  "non_idl_tuples": [
+    "/home/damoon/ROS2_Learning/ros2_ws_2/src/more_interfaces:msg/AddressBook.msg"
+  ]
+}
